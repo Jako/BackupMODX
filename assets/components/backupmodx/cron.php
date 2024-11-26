@@ -27,6 +27,7 @@ if (!$backupmodx->getOption('cronEnable')) {
         fwrite(STDERR, $msg . "\n");
         exit(1);
     } else {
+        @session_write_close();
         exit($msg);
     }
 
@@ -42,6 +43,7 @@ if (php_sapi_name() == 'cli') {
     }
 } else {
     if (!isset($_REQUEST['key']) || $_REQUEST['key'] != $backupmodx->getOption('cronKey')) {
+        @session_write_close();
         exit ('Access Denied. Cron-Security-Key is not correct.');
     }
 }
