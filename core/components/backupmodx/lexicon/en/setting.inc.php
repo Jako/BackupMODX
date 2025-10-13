@@ -6,7 +6,6 @@
  * @subpackage lexicon
  */
 $_lang['area_cron'] = 'Cron';
-
 $_lang['setting_backupmodx.cronDatabase'] = 'Backup Database';
 $_lang['setting_backupmodx.cronDatabase_desc'] = 'Whether or not to include Database in cron backup.';
 $_lang['setting_backupmodx.cronEnable'] = 'Enable Cron';
