@@ -2,7 +2,10 @@
   "fullname": "BackupMODX",
   "name": "backupmodx",
   "description": "Backup dashboard widget for MODX",
-  "author": "Jan Dähne <info@quadro-system.de>, Thomas Jakobi <office@treehillstudio.com>",
+  "author": "Jan Dähne <info@quadro-system.de>",
+  "contributors": [
+    "Thomas Jakobi <office@treehillstudio.com>"
+  ],
   "private": true,
   "version": "3.1.2",
   "startYear": "2015",
@@ -22,10 +25,8 @@
     "terser": "^5.51.2"
   },
   "browserslist": [
-    "last 2 version",
     "> 1%",
-    "maintained node versions",
-    "not dead"
+    "defaults"
   ],
   "allowScripts": {
     "@parcel/watcher@2.6.0": true,
