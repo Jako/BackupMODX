@@ -7,7 +7,7 @@
  */
 $_lang['area_cron'] = 'Cron';
 $_lang['setting_backupmodx.cronDatabase'] = 'Резервирование базы данных';
-$_lang['setting_backupmodx.cronDatabase_desc'] = 'Включать или нет Базу данных в резервную копию по расписанию.';
+$_lang['setting_backupmodx.cronDatabase_desc'] = 'Включать или нет базу данных в резервную копию по расписанию.';
 $_lang['setting_backupmodx.cronEnable'] = 'Резервное копирование по расписанию';
 $_lang['setting_backupmodx.cronEnable_desc'] = 'Включить или выключить резервирование (cron).';
 $_lang['setting_backupmodx.cronFiles'] = 'Резервирование файлов';
@@ -29,6 +29,6 @@ $_lang['setting_backupmodx.excludeFolders_desc'] = 'Список папок, к�
 $_lang['setting_backupmodx.groups'] = 'Группы';
 $_lang['setting_backupmodx.groups_desc'] = 'Список имен групп пользователей, которые будут иметь доступ к виджету, разделенный запятыми.';
 $_lang['setting_backupmodx.targetPath'] = 'Путь к резервной копии';
-$_lang['setting_backupmodx.targetPath_desc'] = 'Путь к директории, где будут храниться резервные копии. Core и Assets плейсхолдеры доступны. Пример: {core_path}backup/';
+$_lang['setting_backupmodx.targetPath_desc'] = 'Путь к директории, где будут храниться резервные копии. Доступны заполнители путей. Пример: {core_path}backup/';
 $_lang['setting_backupmodx.timelimit'] = 'Ограничение времени резервного копирования';
 $_lang['setting_backupmodx.timelimit_desc'] = 'Ограничение по времени для резервного копирования в секундах.';
