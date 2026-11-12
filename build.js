@@ -184,13 +184,13 @@ async function taskCopy() {
         ['LICENSE.md', 'core/components/backupmodx/docs/license.md'],
         ['CHANGELOG.md', 'core/components/backupmodx/docs/changelog.md'],
     ];
-    copyFiles.forEach(([source, destination]) => {
+    for (const [source, destination] of copyFiles) {
         if (source && destination) {
-            copyFile(source, destination);
+            await copyFile(source, destination);
         } else {
             console.warn('⚠ copyFiles: Invalid file pair detected.');
         }
-    });
+    }
 }
 
 async function taskScripts() {
